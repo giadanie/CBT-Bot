@@ -62,7 +62,7 @@ async def on_voice_state_update(member, before, after):
             category = discord.utils.get(guild.categories, id=CATEGORY_ID)
 
             text_channel = await guild.create_text_channel(
-                name=f"{vc.name}-{member.name}-chat",
+                name=f"chikaminute",
                 overwrites=overwrites,
                 category=category
             )
